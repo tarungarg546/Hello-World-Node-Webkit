@@ -6,17 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "window":{
-      "toolbar":false,
-      "resizable": false,
-      "width": 800,
-      "height": 500,
-      "min_width": 400,
-      "min_height": 200,
-      "max_width": 800,
-      "max_height": 600,
-      "position": "mouse"
-    },
+  "window": {
+    "toolbar": false,
+    "resizable": false,
+    "width": 800,
+    "height": 500,
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600,
+    "position": "mouse"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/tarungarg546/Hello-World-Node-Webkit.git"
@@ -29,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/tarungarg546/Hello-World-Node-Webkit/issues"
   },
-  "homepage": "https://github.com/tarungarg546/Hello-World-Node-Webkit"
+  "homepage": "https://github.com/tarungarg546/Hello-World-Node-Webkit",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "node-webkit-builder": "^1.0.13"
+  }
 }
